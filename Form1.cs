@@ -15,6 +15,33 @@ namespace proyectosemanastf
 		public Form1()
 		{
 			InitializeComponent();
+			
+		}
+
+		private void label2_Click(object sender, EventArgs e)
+		{
+			
+		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			int num1 = Convert.ToInt32(textBox1.Text);
+			int num2 = Convert.ToInt32(textBox2.Text);
+
+			int suma = num1 + num2;	
+			string tot = Convert.ToString(suma);
+
+			textBox3.Text = tot;	
+		}
+
+		private void label3_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void textBox3_TextChanged(object sender, EventArgs e)
+		{
+
 		}
 	}
 }
